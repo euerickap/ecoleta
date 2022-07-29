@@ -28,7 +28,7 @@
 #page-home header a {
   display: flex;
 
-  color: var(--title-color);
+  color: #ffffff;
   font-weight: 700;
 }
 
@@ -54,6 +54,8 @@
 
 #page-home main h1 {
   font-size: 54px;
+  color: #2fb86e;
+  font-weight: bold;
 }
 
 #page-home main p {
@@ -74,15 +76,13 @@
 
   margin-top: 40px;
 
-  background-color: var(--primary-color);
-
+  background-color: #2fb86e;
+  
   transition: 400ms;
-
-  color: white;
 }
 
 #page-home main a:hover {
-  background-color: #2fb86e;
+  background-color: var(--primary-color);
 }
 
 #page-home main a span {
@@ -109,6 +109,6 @@
 
 #page-home main a strong {
   flex: 1;
-  color: white;
+  color: #ffffff;
   text-align: center;
 }

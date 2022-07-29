@@ -1,10 +1,10 @@
 body {
-  background-color: white;
+  background-color: black;
 }
 body::after {
   content: "";
   position: absolute;
-  background: #f0f0f5;
+  background: rgb(201, 201, 201);
   top: 0;
   right: 0;
   left: 0;
@@ -29,7 +29,7 @@ body::after {
 }
 
 #page-search-results header a {
-  color: var(--title-color);
+  color: #f5f5f5;
   font-weight: bold;
 
   display: flex;
@@ -78,7 +78,7 @@ main .card h1 {
 
   font-size: 36px;
   line-height: 41px;
-  color: #322153;
+  color: #f5f5f5;
 }
 
 main .card h3 {
@@ -97,5 +97,5 @@ main .card p {
   font-size: 16px;
   line-height: 26px;
 
-  color: #6C6C80;
+  color: #f5f5f5;
 }

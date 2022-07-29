@@ -14,7 +14,7 @@
 }
 
 #page-create-point header a {
-  color: var(--title-color);
+  color: #f5f5f5;
   font-weight: bold;
 
   display: flex;
@@ -32,7 +32,7 @@
 }
 
 form {
-  background-color: white;
+  background-color: rgb(201, 201, 201);
   
   margin: 80px auto;
   padding: 64px;
@@ -67,8 +67,9 @@ form legend h2 {
 }
 
 form legend span {
+  font-weight: bold;
   font-size: 14px;
-  color: var(--title-color);
+  color: #f5f5f5;
 }
 
 form .field {
